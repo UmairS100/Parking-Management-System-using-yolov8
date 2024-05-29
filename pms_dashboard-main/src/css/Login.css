@@ -1,0 +1,67 @@
+.form-head{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+label{
+  font-size: larger;
+  font-weight: 500;
+}
+.login-main{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    width: 300px;
+    /* padding: 20px; */
+  }
+  .span-error{
+    color: #ff0000b3;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+  }
+  .login-input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: large;
+  }
+
+  .password-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .password-wrapper .pass-span {
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .login-button {
+    margin-top: 2vh;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 106%;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  .login-button.invalid {
+    background-color: #ff0000;
+    /* Other styles for invalid state */
+  }  

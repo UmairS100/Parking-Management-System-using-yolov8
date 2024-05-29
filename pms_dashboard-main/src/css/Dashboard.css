@@ -1,0 +1,171 @@
+.userDashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+.userDetailsCard {
+    overflow-wrap: break-word;
+    text-align: center;
+    width: 40vw;
+    background-color: #FAF9F6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.userDetailsCard h2{
+    text-align: center;
+}
+.userDetailsCard p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.right-div{
+    position:fixed;
+    top: 25px;
+    right: 25px;
+}
+.right-button{
+    background-color:transparent;
+    position:relative;
+    z-index: 1;
+    outline: transparent;
+}
+.right-button:hover{
+    background-color:transparent;
+
+}
+.right-info{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    overflow-wrap: break-word;
+    text-align: center;
+    width: 25vw;
+    /* height: 40vh; */
+    background-color: #FAF9F6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+ol{
+    padding-inline-start: 0px
+}
+.bookedSlot {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.bookedSlot.booked {
+    background-color: red;
+    color: white;
+}
+.cancelBookingBtn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:#0056b3 ;
+}
+.cabin .seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+} 
+
+.booked_seat{
+    /* margin-left: -40px; */
+    text-align: center;
+    width: 40vw;
+    background-color: #FAF9F6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.seat_booking[disabled] {
+    background-color: #808080; /* Grey */
+    cursor: not-allowed;
+}
+.plane_flex .cabin{
+    display: flex;
+}
+.plane .cabin{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.show_canel{
+    display:initial;
+}
+.hide_cancel{
+    display: none ;
+}
+
+.table-container {
+    margin-bottom: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  @media only screen and (max-width: 420px) {
+    .userDetailsCard {
+        width: 70vw;
+    }
+    .right-div{
+        position:fixed;
+        top: 5px;
+        right: 5px;
+    }
+    .right-info{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 60vw;
+    }
+  }
+ 
